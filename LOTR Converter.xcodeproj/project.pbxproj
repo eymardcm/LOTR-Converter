@@ -11,6 +11,7 @@
 		C00DC94B2BB23F510055BCD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00DC94A2BB23F510055BCD3 /* ContentView.swift */; };
 		C00DC94D2BB23F520055BCD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00DC94C2BB23F520055BCD3 /* Assets.xcassets */; };
 		C00DC9502BB23F520055BCD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00DC94F2BB23F520055BCD3 /* Preview Assets.xcassets */; };
+		C00DC9582BB39A280055BCD3 /* SetScreenWidthExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00DC9572BB39A280055BCD3 /* SetScreenWidthExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C00DC94A2BB23F510055BCD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C00DC94C2BB23F520055BCD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C00DC94F2BB23F520055BCD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C00DC9572BB39A280055BCD3 /* SetScreenWidthExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetScreenWidthExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		C00DC9472BB23F510055BCD3 /* LOTR Converter */ = {
 			isa = PBXGroup;
 			children = (
+				C00DC9562BB3993A0055BCD3 /* Extensions */,
 				C00DC9482BB23F510055BCD3 /* LOTR_ConverterApp.swift */,
 				C00DC94A2BB23F510055BCD3 /* ContentView.swift */,
 				C00DC94C2BB23F520055BCD3 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				C00DC94F2BB23F520055BCD3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C00DC9562BB3993A0055BCD3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C00DC9572BB39A280055BCD3 /* SetScreenWidthExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				C00DC94B2BB23F510055BCD3 /* ContentView.swift in Sources */,
 				C00DC9492BB23F510055BCD3 /* LOTR_ConverterApp.swift in Sources */,
+				C00DC9582BB39A280055BCD3 /* SetScreenWidthExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
